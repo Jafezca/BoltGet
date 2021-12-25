@@ -1,0 +1,74 @@
+.archivo {
+    background: #26292E;
+    height: 93vh;
+}
+
+.frameArchivo {
+    width: 60%;
+    margin-left: 3%;
+    padding-top: 15px;
+}
+
+h3 {
+    font-family: 'PT Sans';
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+p {
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+}
+
+.frameArchivo a {
+    text-decoration: none;
+    color: white;
+    font-family: Lato;
+}
+
+.frameArchivo a div {
+    width: 30%;
+    margin: 15px;
+    padding: 15px;
+    background: #303338;
+    text-align: center;
+    border: 3px solid white;
+}
+
+.frameArchivo a div:hover {
+    background: #119FEA ;
+}
+
+pre {
+    background: #303338;
+    color: white;
+    font-size: 13px;
+    padding: 15px;
+    font-family: Lato;
+}
+
+.tituloDetalles {
+    color: white;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+.detalles {
+    background: #303338;
+    padding: 15px;
+}
+
+h5 {
+    color: white;
+    font-family: Lato;
+    font-weight: 700;
+}
+
+.detalles div {
+    margin: 15px 0px;
+}

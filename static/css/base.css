@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #303338;
+    height: 7vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-family: 'PT Sans';
+}
+
+header a:hover {
+    color: #119FEA;
+}
+
+.fa-bolt {
+    font-size: 30px;
+    margin-left: 10px;
+}
+
+.logo {
+    display: flex;
+}
+
+.logo h2 {
+    margin-left: 10px;
+}
+
+.categorias {
+    margin-right: 10px;
+}
+
+.categorias a {
+    margin: 0 5px;
+    font-size: 20px;
+}

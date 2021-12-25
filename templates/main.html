@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+{% load static %}
+
+{% block head %}
+<title>BoltGet</title>
+<link rel="stylesheet" href="{% static 'css/main.css' %}">
+{% endblock %}
+
+{% block content %}
+<div class="home">
+    <div class="frameCajas">
+        <div class="fila">
+            <a href="{% url 'listacategorias' 'archivos' %}"><div><i class="fas fa-folder"></i></div></a>
+            <a href="{% url 'listacategorias' 'redes' %}"><div><i class="fas fa-ethernet"></i></div></a>
+            <a href="{% url 'listacategorias' 'servidores' %}"><div><i class="fas fa-server"></i></div></a>
+        </div>
+        <div class="fila">
+            <a href="{% url 'listacategorias' 'isos' %}"><div><i class="fas fa-compact-disc"></i></div></a>
+            <a href="{% url 'listacategorias' 'windows' %}"><div><i class="fab fa-windows"></i></div></a>
+            <a href="{% url 'listacategorias' 'programas' %}"><div><i class="fas fa-laptop"></i></div></a>
+        </div>
+    </div>
+</div>
+{% endblock %}

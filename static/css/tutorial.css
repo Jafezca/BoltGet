@@ -1,0 +1,41 @@
+.tutorial {
+    height: 93vh;
+    background: #26292E;
+}
+
+.frameTutorial {
+    width: 60%;
+    margin-left: 3%;
+    padding-top: 15px;
+}
+
+h3 {
+    font-family: 'PT Sans';
+    font-size: 30px;
+    color: white;
+    margin-bottom: 5px;
+}
+
+h4 {
+    color: white;
+    font-family: 'PT Sans';
+    font-size: 18px;
+    margin: 15px 0px;
+}
+
+p {
+    color: white;
+    font-family: Lato;
+    font-weight: 400;
+    font-size: 13px;
+    text-align: justify;
+    margin: 5px 0;
+}
+
+pre {
+    background: #303338;
+    color: white;
+    font-size: 13px;
+    padding: 15px;
+    font-family: Lato;
+}

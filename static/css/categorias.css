@@ -1,0 +1,43 @@
+.categoria {
+    background: #26292E;
+    height: 93vh;
+}
+
+h3 {
+    font-family: 'PT Sans';
+    font-size: 30px;
+    color: white;
+}
+
+.frameCategorias {
+    width: 60%;
+    margin-left: 3%;
+    padding-top: 15px;
+}
+
+.frameCategorias a {
+    text-decoration: none;
+}
+
+.frameCategorias div{
+    padding: 5px;
+}
+
+.frameCategorias a h5 {
+    color: white;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.frameCategorias a p {
+    color: white;
+    font-family: Lato;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: justify;
+}
+
+.par {
+    background: #303338;
+}

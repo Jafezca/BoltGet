@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--Opciones-->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--favicon-->
+    <link rel="shortcut icon" href="{% static 'imagenes/favicon.png' %}" type="image/x-icon">
+    <!--Tipografias e iconos-->
+    <script src="https://kit.fontawesome.com/d065ecc10d.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <!--Estilos-->    
+    <link rel="stylesheet" href="{% static 'css/base.css' %}">
+    {% block head %}{% endblock %}
+</head>
+<body>
+    <div class="main">
+        <header>
+            <a href="{% url 'inicio' %}" class="logo">
+                <i class="fas fa-bolt"></i>
+                <h2>BoltGet</h2>
+            </a>
+            <div class="categorias">
+                <a href="{% url 'listacategorias' 'archivos' %}"><i class="fas fa-folder"></i></a>
+                <a href="{% url 'listacategorias' 'redes' %}"><i class="fas fa-ethernet"></i></a>
+                <a href="{% url 'listacategorias' 'servidores' %}"><i class="fas fa-server"></i></a>
+                <a href="{% url 'listacategorias' 'isos' %}"><i class="fas fa-compact-disc"></i></a>
+                <a href="{% url 'listacategorias' 'windows' %}"><i class="fab fa-windows"></i></a>
+                <a href="{% url 'listacategorias' 'programas' %}"><i class="fas fa-laptop"></i></a>
+            </div>
+        </header>
+        {% block content %}
+        
+        {% endblock %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,16 @@
+{% extends 'base.html' %}
+{% load static %}
+{% load blog_extras %}
+
+{% block head %}
+<link rel="stylesheet" href="{% static 'css/tutorial.css' %}">
+<title>{{ nombre }}</title>
+{% endblock %}
+
+{% block content %}
+<div class="tutorial">
+    <div class="frameTutorial">
+        {{ texto|convert_markdown|safe }}
+    </div>
+</div>
+{% endblock %}

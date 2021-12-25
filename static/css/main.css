@@ -1,0 +1,46 @@
+.home {
+    height: 93vh;
+    background: #26292E;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.frameCajas {
+    height: 90%;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-between;
+}
+
+.fila {
+    height: 48%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.fila div {
+    height: 100%;
+    width: 100%;
+    background: #303338;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fila .fas, .fila .fab {
+    color: white;
+    font-size: 120px;
+}
+
+.fila div:hover {
+    background: #119FEA;
+}
+
+.fila a {
+    text-decoration: none;
+    width: 32%;
+}
