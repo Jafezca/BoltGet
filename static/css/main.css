@@ -24,20 +24,21 @@
 
 .fila div {
     height: 100%;
-    width: 100%;
+    width: 98%;
     background: #303338;
     display: flex;
     justify-content: center;
     align-items: center;
+    border: solid 10px #303338;
+}
+
+.fila div:hover {
+    border-color: #119FEA;
 }
 
 .fila .fas, .fila .fab {
     color: white;
     font-size: 120px;
-}
-
-.fila div:hover {
-    background: #119FEA;
 }
 
 .fila a {

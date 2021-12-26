@@ -10,8 +10,8 @@
 <div class="archivo">
     <div class="frameArchivo">
         <h3>{{ nombre }}</h3>
-        <p>{{ descripcion }}</p>
-        <a href="{{ enlace }}"><div><h4>Descargar</h4></div></a>
+        <p>{{ descripcion }}</p>        
+        <div class="cajaBoton"><a href="{{ enlace }}"><div class="interiorBoton"><h6>Prueba</h6></div></a></div>
         <pre>wget {{ enlace }}</pre>
         <h4 class="tituloDetalles">Detalles</h4>
         <div class="detalles">
@@ -28,12 +28,6 @@
                 <h5>Fecha de publicación:</h5>
                 <p>{{ fecha }}</p>
             </div>
-            <!--
-            <div>
-                <h5>Tamaño</h5>
-                <p>15.1MB</p>
-            </div>
-            -->
         </div>
     </div>
 </div>
